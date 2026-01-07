@@ -1,4 +1,3 @@
-
 export default function Contact() {
   return (
     <section id="contact" className="py-24 px-4 sm:px-6 lg:px-8 bg-[#0E0E0E]">
@@ -57,12 +56,12 @@ export default function Contact() {
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Telefon & Email</h3>
                   <p className="text-gray-300 leading-relaxed">
-                    <a href="tel:+40721234567" className="hover:text-[#F5C84C] transition-colors">
-                      +40 721 234 567
+                    <a href="tel:+40700000000" className="hover:text-[#F5C84C] transition-colors">
+                      070 000 000
                     </a>
                     <br />
-                    <a href="mailto:contact@shineandshape.ro" className="hover:text-[#F5C84C] transition-colors">
-                      contact@shineandshape.ro
+                    <a href="mailto:contact@contactshine.ro" className="hover:text-[#F5C84C] transition-colors">
+                      contact@contactshine.ro
                     </a>
                   </p>
                 </div>
@@ -78,25 +77,19 @@ export default function Contact() {
                   <h3 className="text-xl font-bold text-white mb-3">Social Media</h3>
                   <div className="flex gap-4">
                     <a
-                      href="https://facebook.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="/"
                       className="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-[#F5C84C] transition-all duration-300 cursor-pointer"
                     >
                       <i className="ri-facebook-fill text-xl text-white"></i>
                     </a>
                     <a
-                      href="https://instagram.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="/"
                       className="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-[#F5C84C] transition-all duration-300 cursor-pointer"
                     >
                       <i className="ri-instagram-fill text-xl text-white"></i>
                     </a>
                     <a
-                      href="https://tiktok.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="/"
                       className="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-[#F5C84C] transition-all duration-300 cursor-pointer"
                     >
                       <i className="ri-tiktok-fill text-xl text-white"></i>
@@ -123,7 +116,7 @@ export default function Contact() {
       </div>
 
       <a
-        href="https://wa.me/40721234567"
+        href="https://wa.me/40700000000"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-8 right-8 w-16 h-16 flex items-center justify-center bg-gradient-to-br from-[#25D366] to-[#128C7E] rounded-full shadow-lg hover:shadow-[0_0_30px_rgba(37,211,102,0.6)] transition-all duration-300 z-40 cursor-pointer group"
